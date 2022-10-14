@@ -15,8 +15,41 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
+
+.container-lg {
+    display: flex;
+    width: 700px;
+    height: auto;
+    *background-color: transparent;
+}
+
+.login {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    border-radius: 10px;
+    animation-name: border;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes border {
+    0% {
+        border-radius: 0%;        
+    }
+
+    100% {
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+}
+
+
 
 
