@@ -119,7 +119,7 @@ body {
     background-color: black;
     color: white;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 30px 40px;
     border-radius: 10px;
     animation-name: border-nt;
     animation-duration: 2s;
@@ -139,6 +139,52 @@ body {
 
 }
 
+.login-nt .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+.login-nt button {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.login-nt button i {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.login-nt .mail {
+    background-color: #db4a39;
+    color: white;
+    font-size: 18px;;
+}
+
+.login-nt .fb {
+    background-color: #3b5999;
+    color: white;
+    font-size: 18px;;
+}
+
+.login-nt .tw {
+    background-color: #00acee;
+    color: white;
+    font-size: 18px;;
+}
+
+.login-nt .ig {
+    background-image: linear-gradient(to bottom right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    color: white;
+    font-size: 18px;;
+}
 
 
 
