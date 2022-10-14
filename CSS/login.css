@@ -110,9 +110,38 @@ body {
 }
 
 .login a:hover {
-    color: black;
-    
+    color: black;    
 }
+
+.login-nt {
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 10px;
+    animation-name: border-nt;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes border-nt {
+    0% {
+        border-radius: 0;
+    }
+    
+    100% {
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+
+}
+
+
+
+
 
 
 
